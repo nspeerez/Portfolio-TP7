@@ -1,0 +1,155 @@
+
+/**********************************************************************/
+
+
+/**Comienza estilo Responsive**/
+
+
+@media screen and (max-width: 494px) and (min-width: 320px) {
+	
+	/** Nav Responsive **/
+
+	nav .contenedor ul {
+		display:none;
+	}
+	
+	nav .contenedor h2 {
+		margin-left:10px;
+		margin-top: 4px;
+		font-size: 18px;
+	}
+
+	nav {
+		padding:13px 0;
+}
+	}
+ 
+	.mobile {
+		border:1px solid;
+		border-radius: 4px;
+		font-size:9px;
+		display: inline-block;
+	    padding: 8px 5px; 
+	    margin-right:15px;
+	    color:#FFF;
+	    font-weight:bold;
+	    float: right;
+	}
+
+	.mobile a .menu {
+	width: 8px;
+	height: 8px;
+	padding: 0 3px 0 3px;
+	}
+
+	.mobile a {
+		text-decoration:none;
+		color:#FFF;
+		text-transform: uppercase;
+	}
+
+	/** Comienza Header **/
+
+	header .contenedor .profile {
+		width:200px;
+ 		height: 200px;
+	} 
+
+	header h1 {
+		font-size: 26px;
+	}
+	
+	header p {
+		font-size: 14px;
+	}
+
+	/** Comienza Portfolio **/
+
+	section h2 {
+		font-size: 33px;
+		padding-top: 46px;
+	}
+
+	.contenedor-imagenes {
+		width: 0;
+		height:auto;
+		margin:0 6px 66px 6px;
+	}
+
+	.imagen {
+		height: 215px;
+		width: 297px;
+	}
+
+	/**Comienza  About **/
+
+	.about {
+		padding-bottom: 42px;
+		height: auto;
+	}
+
+	.parrafo {
+		display: inline-block;
+		width: auto;
+		height: auto;
+	}
+
+	.parrafo p {
+		width: 282px;
+		padding:0 0 8px 0;
+		font-size: 14px;
+	}
+
+	/** Comienza Contacto **/
+
+	.formulario {
+		margin:0 6px;
+	}
+
+	input {
+		width: 310px;
+	}
+
+	textarea {
+		width: 308px;
+	}
+
+	/**Comienza  Footer **/
+
+	footer {
+		height: auto;
+	}
+
+	footer .contenedor {
+		display: inline-block;
+		height: auto;
+		width: 260px;
+	} 
+
+	footer .contenedor .location {
+		margin:0;
+	}
+
+	footer .contenedor .web {
+		width: auto;
+		margin: 15px 0 0 0; 
+	}
+
+	footer .contenedor .freelancer {
+		width: auto;
+		margin: 15px 0 20px 0;
+	}
+
+	article h3 {
+		font-size: 17px;
+	}
+
+	.social {
+	height:38px;
+	}
+	
+	.copyright p {
+		font-size: 12px;
+	}
+
+}

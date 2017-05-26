@@ -1,0 +1,429 @@
+body {
+	margin:0;
+	padding:0;
+	font-family:'Montserrat', sans-serif;
+}
+
+nav {
+	background-color:#2c3e50;
+	padding:20px 0px 20px 0;
+}
+
+.contenedor {
+	max-width: 900px;
+	margin:auto;
+}
+
+nav h2 {
+	margin:0;
+	display: inline-block;
+	color:#FFF;
+	text-transform: uppercase;
+	font-size:20px;
+}
+
+nav ul {
+	float:right;
+	margin:0;
+}
+
+nav ul li {
+	display:inline-block;
+	padding: 0 25px;
+}
+
+nav ul li a {
+	color:#FFF;
+ 	text-decoration:none;
+ 	text-transform:uppercase;
+ 	font-size:10px;
+ 	font-weight:bold;
+}
+
+ ul li a:hover {
+ 	color:#C1C1C1;
+ }
+
+nav .contenedor .mobile {
+ 	display:none;
+ }
+
+/** Comienza el header**/
+
+header {
+	background-color:#36b097;
+	color:#FFF;
+	height:440px;
+}
+
+.profile {
+ 	width:180px;
+ 	height: 180px;
+ 	margin:60px 0 20px 0;
+ }
+
+ header h1 {
+ 	text-transform:uppercase;
+ 	font-weight:bold;
+ 	margin:0;
+ 	font-size:44px;
+ 	
+ }
+
+ header p {
+ 	font-size:15px;
+	margin:0;
+	margin-top:10px;
+ }
+
+ /** Estilo para lineas y estrella**/
+
+ .linea {
+ 	padding: 5px;
+    width: 60px;
+    height: 20px;
+ }
+
+ .star {
+	width: 20px;
+    padding-bottom: 5px;
+}
+ 
+ /**Comienza Seccion Portfolio**/
+
+section h2 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 29px;
+	padding-top: 60px;
+	margin:0;
+} 
+
+.imagen {
+	width:200px;
+	height:150px;
+	padding:5px;
+}
+
+.contenedor-imagenes {
+	width:650px;
+    height:332px;
+    margin:0 auto 80px auto;
+    padding:0;
+}
+
+.imagen:hover {
+	opacity:0.5;
+}
+
+/**Comienza Seccion About**/
+
+.about {
+	background-color:#36b097;
+	color:#FFF;
+	height: 350px;
+}
+
+.parrafo {
+	display:flex;
+	margin:16px auto;
+	width:530px;
+	height:104px;
+
+}
+
+.parrafo p {
+	text-align: initial;
+	margin:0;
+	font-size: 13px;
+	padding: 0 20px 0 0;
+}
+
+.download {
+	border:1px solid;
+	border-radius: 4px;
+	font-size:12px;
+	width: 140px;
+	display: inline-block;
+    padding: 8px 5px;
+    margin:0;
+    }
+
+.descarga {
+	width: 15px;
+	height: 15px;
+	padding: 0 3px 0 3px;
+}
+
+.download a {
+	text-decoration:none;
+	color:#FFF;
+}
+
+/**Cominenza la Seccion Contacto**/
+
+.contacto {
+	height: 500px;
+} 
+
+form {
+	display:inline-block;
+	margin-top:15px;
+}
+
+input {
+	display: block;
+    font-size: 13px;
+    height: 30px;
+    border-width:1px 0;
+    width: 530px;
+    font-family: 'Montserrat', sans-serif;
+    border-color:rgba(255, 255, 255, 0.39);
+    padding:6px 0;
+}
+
+textarea {
+	width: 530px;
+	height: 100px;
+	font-family: 'Montserrat', sans-serif;
+    border-color:rgb(222, 222, 222);
+    border-width:1px 0;
+    font-size: 13px;
+    max-height:100px;
+    max-width: 530px;
+    padding: 12px 2px 2px 2px;
+}
+
+input[type="submit"] {
+	background-color:#36b097;
+	color:#FFF;
+	border-radius: 3px;
+	width:51px;
+	height:26px;
+	font-size: 11px;
+	margin-top:6px;
+}
+
+input[type="submit"]:hover {
+	opacity: 0.8;
+}
+
+/**Comienza el Footer**/
+
+footer {
+	background-color:#2c3e50;
+	color:#FFF;
+	height: 170px;
+}
+
+footer .contenedor {
+	padding-top: 48px;
+	padding-bottom: 25px;
+	display: inline-flex;
+}
+
+article {
+	display: inline-block;
+}
+
+footer .contenedor .location {
+	width:169px;
+	margin-left:60px;
+}
+
+footer .contenedor .web {
+	width: 283px;
+	margin-left: 124px;
+}
+
+footer .contenedor .freelancer {
+	width:283px;
+	margin-left: 67px;
+}
+
+article h3 {
+	text-transform: uppercase;
+	font-size: 15px;
+	margin-bottom:22px;
+}
+
+article p {
+	font-size: 13px;
+	margin:0;
+}
+
+span {
+	color:#36b097;
+}
+
+.social {
+	height:28px;
+	margin-left: 6px;
+}
+
+.social:hover {
+	opacity: 0.6;
+}
+
+.copyright {
+	display:block;
+	background-color: #233140;
+	height: 17px;
+	padding: 13px 0;
+
+}
+
+
+
+/**********************************************************************/
+
+
+/**Comienza estilo Responsive**/
+
+
+@media screen and (max-width: 494px) and (min-width: 320px) {
+	
+	/** Nav Responsive **/
+	nav {
+		padding:13px 0;
+	}
+	
+	nav .contenedor ul {
+		display:none;
+	}
+	
+	nav .contenedor h2 {
+		margin-left:10px;
+		margin-top: 4px;
+		font-size: 18px;
+	}
+ 
+	nav .contenedor .mobile {
+		display: inline-block;
+		border:1px solid;
+		border-radius: 4px;
+		font-size:9px;
+		padding: 8px 5px; 
+	    margin-right:15px;
+	    color:#FFF;
+	    font-weight:bold;
+	    float: right;
+	}
+
+	.mobile a .menu {
+	width: 8px;
+	height: 8px;
+	padding: 0 3px 0 3px;
+	}
+
+	.mobile a {
+		text-decoration:none;
+		color:#FFF;
+		text-transform: uppercase;
+	}
+
+	/** Comienza Header **/
+
+	header .contenedor .profile {
+		width:200px;
+ 		height: 200px;
+	} 
+
+	header h1 {
+		font-size: 26px;
+	}
+	
+	header p {
+		font-size: 14px;
+	}
+
+	/** Comienza Portfolio **/
+
+	section h2 {
+		font-size: 33px;
+		padding-top: 46px;
+	}
+
+	.contenedor-imagenes {
+		width: 0;
+		height:auto;
+		margin:0 6px 66px 6px;
+	}
+
+	.imagen {
+		height: 215px;
+		width: 297px;
+	}
+
+	/**Comienza  About **/
+
+	.about {
+		padding-bottom: 42px;
+		height: auto;
+	}
+
+	.parrafo {
+		display: inline-block;
+		width: auto;
+		height: auto;
+	}
+
+	.parrafo p {
+		width: 282px;
+		padding:0 0 8px 0;
+		font-size: 14px;
+	}
+
+	/** Comienza Contacto **/
+
+	.formulario {
+		margin:0 6px;
+	}
+
+	input {
+		width: 310px;
+	}
+
+	textarea {
+		width: 308px;
+	}
+
+	/**Comienza  Footer **/
+
+	footer {
+		height: auto;
+	}
+
+	footer .contenedor {
+		display: inline-block;
+		height: auto;
+		width: 260px;
+	} 
+
+	footer .contenedor .location {
+		margin:0;
+	}
+
+	footer .contenedor .web {
+		width: auto;
+		margin: 15px 0 0 0; 
+	}
+
+	footer .contenedor .freelancer {
+		width: auto;
+		margin: 15px 0 20px 0;
+	}
+
+	article h3 {
+		font-size: 17px;
+	}
+
+	.social {
+	height:38px;
+	}
+	
+	.copyright p {
+		font-size: 12px;
+	}
+
+}
